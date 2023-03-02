@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+main {
+  max-width: 90rem;
+  margin: auto;
+  padding: 2rem;
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  margin: 0 auto;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.cocktail-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cocktail {
+  background-color: rgb(243, 242, 242);
+  padding: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+.cocktail:hover {
+  background-color: rgb(229, 229, 229);
+  transform: scale(1.02);
+}
